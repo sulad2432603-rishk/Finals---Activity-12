@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="to_do_task.css">
+  </head>
+  <body>
+    <header>
+      <h1>To-Do List</h1>
+    </header>
+    <main>
+        <input type="text" id="taskInput" placeholder="What needs to be done?" required/>
+        <input type="number" id="hours"/>
+
+        <button id="add_button" type="button">Add</button>
+
+        <nav>
+            <p><a href="#all">All | </a><a href="#active">Active | </a><a href="#completed">Completed</a></p>
+        </nav>
+
+        <button id="all_done_button" type="button">Mark All Done</button>
+
+        <section id="all">
+            
+        </section>
+
+        <section id="active">
+
+        </section>
+
+        <section id="completed">
+
+        </section>
+
+        <section>
+            <input type="checkbox" id="task1"/>
+            <label for="task1">Task 1</label>
+            <input type="checkbox" id="task2"/>
+            <label for="task2">Task 2</label>
+            <input type="checkbox" id="task3"/>
+            <label for="task3">Task 3</label>
+        </section>
+
+        <footer>
+            <p>Items Selected: <span id="item_count">0</span></p>
+            <p>Total Hours: <span id="total_hours">0</span></p>
+            <button id="clear_completed_button" type="button">Clear Completed</button>
+        </footer>
+    </main>
+  </body>
+</html>

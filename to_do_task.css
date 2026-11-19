@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box; 
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* Task #14 */
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  line-height: 1.5;
+  background: #0c4d79;
+  color: #001c36;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+  font-family: "Libre Baskerville", serif;
+}
+
+section {
+  scroll-margin-top: 70px;
+}
